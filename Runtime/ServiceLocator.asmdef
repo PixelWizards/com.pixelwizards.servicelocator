@@ -1,0 +1,4 @@
+﻿{
+	"name": "ServiceLocator",
+	"references":[ "UnityEngine.UI" ]
+}
