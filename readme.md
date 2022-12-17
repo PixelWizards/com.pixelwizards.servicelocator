@@ -1,7 +1,7 @@
 com.pixelwizards.servicelocator
 =========================
 
-[![openupm](https://img.shields.io/npm/v/com.pixelwizards.singleton?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.pixelwizards.singleton/)
+[![openupm](https://img.shields.io/npm/v/com.pixelwizards.servicelocator?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.pixelwizards.servicelocator/)
 
 A simple Unity implementation of the Service Locator software pattern.
 
