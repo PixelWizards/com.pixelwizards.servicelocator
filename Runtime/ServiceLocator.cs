@@ -65,6 +65,18 @@ namespace PixelWizards.Shared.Base
                 return matching[0];
             }
         }
+        
+ 
+        /// <summary>
+        /// Adds a tryget 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public static T TryGet<T>() where T : class
+        {
+            try { return Get<T>(); }
+            catch { return null; }
+        }
 
         /// <summary>
         /// Check if we have a service already of this type
